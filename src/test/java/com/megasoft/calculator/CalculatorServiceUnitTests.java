@@ -30,7 +30,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
         InteractiveShellApplicationRunner.SPRING_SHELL_INTERACTIVE_ENABLED + "=false",
         ScriptShellApplicationRunner.SPRING_SHELL_SCRIPT + ".enabled=false"
 })
-//@ComponentScan(basePackages = {"com.example.calculator", "javax.servlet"})
+//@ComponentScan(basePackages = {"com.megasoft.calculator", "javax.servlet"})
 @DisplayName("Calculator Unit Tests")
 @Slf4j
 public class CalculatorServiceUnitTests {

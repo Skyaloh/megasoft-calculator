@@ -20,7 +20,7 @@ public class SpringFoxConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.calculator"))
+                .apis(RequestHandlerSelectors.basePackage("com.megasoft.calculator"))
                 .paths(PathSelectors.ant("/api/*"))
                 .build()
                 .apiInfo(apiInfo());
