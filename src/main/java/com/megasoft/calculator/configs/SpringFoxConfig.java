@@ -29,7 +29,7 @@ public class SpringFoxConfig {
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "Calculator Rest API",
-                "Some custom description of API.",
+                "MegaSoft calculator API.",
                 "API TOS",
                 "Terms of service",
                 new Contact("Samuel Kyalo", "www.megasoft.com", "kyalohsamuel@gmail.com"),
