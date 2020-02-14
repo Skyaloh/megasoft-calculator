@@ -107,18 +107,4 @@ public class CalculatorServiceUnitTests {
         );
     }
 
-
-    @DisplayName("Testing Reset Calculator history")
-    @Test
-    public void testReset(){
-        assertEquals((Double) 50d,calculatorService.add(new Double[]{10d,20d,20d}),
-                ()-> "10+20+20 = " + (10d+20d+20d));
-
-        log.info("History: {}",calculatorService.listHist() );
-        assertThat(calculatorService.listHist()).isNotNull();
-        //assertThat(calculatorService.reset()).isNull();
-    }
-
-
-
 }
